@@ -1,0 +1,17 @@
+.nav-item {
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #dee9d8;
+    margin-right: 1em;
+}
+.nav-item .nav-link {
+    color: #215720 !important;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu {
+    background-color: #dee9d8;
+    border: 1px solid;
+    border-radius: 5px;
+}
