@@ -1,3 +1,4 @@
+import CartIcon from "../icon/CartIcon";
 
 function NavBar() {
 return <div>
@@ -12,7 +13,7 @@ return <div>
 							<li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="#"
 									role="button" data-bs-toggle="dropdown">Alimento</a>
 								<ul className="dropdown-menu">
-									<li><a href="#" class="dropdown-item">Alimento seco</a></li>
+									<li><a href="#" className="dropdown-item">Alimento seco</a></li>
 									<li><a href="#" className="dropdown-item">Alimento Humedo</a></li>
 									<li><a className="dropdown-item" href="#">Alimentos medicados</a></li>
 								</ul>
@@ -67,9 +68,10 @@ return <div>
 							</li>
 						</ul>
 					</div>
+					<CartIcon></CartIcon>
 				</div>
 
-			</nav>
+	</nav>
 </div>;
 }
 
